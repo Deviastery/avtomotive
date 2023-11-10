@@ -1,0 +1,250 @@
+@font-face {
+    font-family: Montserrat Regular;
+    src: url(ofont.ru_Montserrat.ttf);
+}
+@font-face {
+    font-family: Montserrat Bold;
+    src: url(ofont.ru_Montserrat\ \(bold\).ttf);
+}
+@font-face {
+    font-family: Myriad Pro;
+    src: url(ofont.ru_Myriad\ Pro.ttf);
+}
+@font-face {
+    font-family: Couture;
+    src: url(couture-bld.otf);
+}
+@font-face {
+    font-family: PT Serif Regular;
+    src: url(PT_Serif-Web-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-image: url(../bg/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    width: 1010px;
+    margin: 0 auto;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 38px 0 0 0;
+}
+.nav {
+    display: flex;
+    width: 505px;
+    list-style: none;
+    margin: 0 auto;
+}
+li{
+    margin: 0 auto;
+}
+.link_nav{
+    text-decoration: none;
+}
+.button_nav{
+    padding: 12px 15px;
+    border-radius: 5px;
+    background-color: inherit;
+    text-transform: uppercase;
+    text-decoration: 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Montserrat Regular;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 60px auto;
+}
+.button_nav:hover{
+    background-color: #130e27;
+}
+.header_title{
+    font-family: Montserrat Bold;
+    font-size: 90px;
+    color: #ffffff;
+    line-height: 80px;
+    margin: 90px 0 45px 0;
+}
+.header_title::first-line{
+    color: #130e27;
+}
+.header_text{
+    font-family: Myriad Pro;
+    tab-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    width: 400px;
+    font-weight: 100;
+    padding-bottom: 160px;
+}
+.services_title {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: Couture;
+    color: #130e27;
+    font-weight: bold;   
+    margin: 45px 0 97px 0; 
+    text-transform: uppercase; 
+}
+.services_title > span:first-child{
+    color: rgb(198, 35, 20);
+}
+.services_icon_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item {
+    text-align: center;
+}
+.icon {
+    height: 144px;
+}
+.icon_text {
+    font-family: PT Serif Regular;
+    width: 180px;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 45px auto 72px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call{
+    background-color: #130e27;
+    width: 1200px;
+    margin: 0 auto;
+}
+.call_box{
+    display: flex;
+    justify-content: space-between;
+}
+.call_text{
+    font-family: PT Serif Regular;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 630px;
+    color: #ffffff;
+    padding: 35px 0 38px 0;
+}
+.button_our_story{
+    height: 64px;
+    width: 269px;
+    background-color:#c62314; 
+    border-radius: 5px; 
+    text-align: center;
+    font-family: Montserrat Regular;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 31px 0 24px 0;
+}
+.pricing{
+    background-color: #efefef;
+    width: 1200px;
+    margin: 0 auto;
+}
+.title_pricing{
+    color: #130e27;
+    text-transform: uppercase;
+    font-family: Montserrat Bold;
+    font-size: 50px;
+    text-align: center;
+    padding: 65px 0 95px 0;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 65px;
+}
+.item {
+    height: 390px;
+    width: 320px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.title_item {
+    font-family: PT Serif Regular;
+    width: 180px;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 35px auto 40px;
+    line-height: 20px;
+}
+.price {
+    font-family: Montserrat Bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #c62314;
+    line-height: 30px;
+}
+.options {
+    font-family: PT Serif Regular;
+    width: 180px;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 33px auto 30px;
+}
+.button_pricing {
+    height: 50px;
+    width: 205px;
+    font-family: Montserrat Regular;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    background-color: #130e27;
+    border-radius: 5px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.red_button_pricing{
+    background-color: #c62314;
+}
+footer{
+    background-color: #130e27;
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_text {
+    font-family: PT Serif Regular;
+    font-size: 20px;
+    line-height: 22px;
+    color: #fff;
+    padding: 80px 0 90px 0;
+}
+.footer_designer {
+    color: #c62314;
+}
+.footer_logo {
+    
+}
+
+
+  
